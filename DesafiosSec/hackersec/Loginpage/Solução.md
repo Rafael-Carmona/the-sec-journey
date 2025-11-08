@@ -13,10 +13,13 @@ Encontrei credenciais codificadas no código-fonte da página e as decodifiquei 
 #2b2828ff; color:#cccccc; padding:10px; border-radius:5px; font-family: monospace;">
 <span style="color:#852b9e;">const</span> <span style="color:#569cd6;">encodedUser</span> = <span style="color:#d96416;">"YWRtaW4=";</span>
 <span style="color:#852b9e;">const</span> <span style="color:#569cd6;">encodedPass</span> = <span style="color:#d96416;">"aDRjazNyczNj";</span></pre>
-### Essas credenciais estão criptografadas então pra quebrar eu usei no terminal bash esse código:
+### Essas credenciais estão criptografadas então pra quebrar eu usei no terminal kali linux esse código:
 <pre style="background:black; color:#cccccc; padding:10px; border-radius:5px; font-family: monospace;">
 <span style="color:#569cd6;">echo</span> <span style="color:#d69d85;">"YWRtaW4="</span> <span style="color:#569cd6;">|</span> <span style="color:#6a9955;">base64</span> <span style="color:#6a9955;">-d</span>
 <span style="color:#569cd6;">echo</span> <span style="color:#d69d85;">"aDRjazNyczNj"</span> <span style="color:#569cd6;">|</span> <span style="color:#6a9955;">base64</span> <span style="color:#6a9955;">-d</span>
 </pre>
 
 - Então, eu obtive o resultado pedido pelo desafio: **admin:h4ck3rs3c**
+
+### Evidência visual
+![Codigo aberto](imagem/Evidência-visual.png)
