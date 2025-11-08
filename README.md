@@ -1,5 +1,5 @@
 # the-sec-journey 🚀  
-> A jornada prática de segurança do Rafael
+> A jornada prática de segurança 
 
 Bem-vindo ao meu laboratório pessoal de segurança da informação. Este repositório é **minha jornada em andamento**: aqui eu aprendo, testo e documento tudo na prática. Cada pasta é um capítulo que vai crescendo conforme eu resolvo desafios, faço labs e registro meus aprendizados.
 
